@@ -32,10 +32,10 @@ There are currently 2 endpoints in tacos2fitness, outlined further below.
 
 <img src="pics/CaloriesToTacoOptions.png" width="700">
 1. **Weight to Tacos** endpoint
-  - Request message must be an integer, followed by a space, and the letters "lb"
-  - e.g. "150 lb"
-  - Returns response of number of tacos that weight represents
-  - e.g. "600 tacos"
+  1. Request message must be an integer, followed by a space, and the letters "lb"
+  1. e.g. "150 lb"
+  1. Returns response of number of tacos that weight represents
+  1. e.g. "600 tacos"
 
 <img src="pics/WeightToNumTacos.png" width="700">
 2. **Calorie Budget Taco Options** endpoint
