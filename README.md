@@ -1,6 +1,6 @@
-# tacos2fitness
+# tacos2fitness microservice
 
-## How to request data from the tacos2fitness microservice: a guide
+## How to request data from the tacos2fitness
 The *tacos2fitness* microservice transfers data via ZeroMQ ([docs](https://zeromq.org/) can be found here).
 
 A sample client (`test_tacos2fitness_client.py`) is included in the repo for quick setup and viewing.
