@@ -1,6 +1,6 @@
 # tacos2fitness
 
-<img src="pics/CaloriesToTacoOptions.png" width="200">
+<img src="pics/CaloriesToTacoOptions.png" width="500">
 
 ![tacos2fitness 1 rep max into tacos](pics/CaloriesToTacoOptions.png?raw=true "Title")
 
