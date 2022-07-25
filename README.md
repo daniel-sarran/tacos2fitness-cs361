@@ -28,21 +28,34 @@ There are currently 2 endpoints in tacos2fitness, outlined further below.
 
 `message = message.decode('UTF-8')` decodes response data into UTF-8
 
+
+
 ## tacos2fitness Endpoints
 
 <img src="pics/CaloriesToTacoOptions.png" width="700">
 ### Weight to Tacos endpoint
+
 - Request message must be an integer, followed by a space, and the letters "lb"
+
 - e.g. "150 lb"
+
 - Returns response of number of tacos that weight represents
+
 - e.g. "600 tacos"
+
+
 
 <img src="pics/WeightToNumTacos.png" width="700">
 ### Calorie Budget Taco Options endpoint
+
 - Request message must be an integer, followed by a space, and the letters "cal"
+
 - e.g. "500 cal"
+
 - Returns response of tacos served that fit within that calorie budget, as comma separated key-value pairs
+
 - e.g. "carne asada taco:350,adobada taco:250,al pastor taco:400"
+
 - The key here would be the type of taco `carne asada taco`, and the value the calories in that taco `350` (calories)
 
 
