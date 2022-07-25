@@ -28,8 +28,7 @@ There are currently 2 endpoints in tacos2fitness, outlined further below.
 
 `message = message.decode('UTF-8')` decodes response data into UTF-8
 
-<br>
-<br>
+<br><br>
 
 ## tacos2fitness Endpoints
 
@@ -44,6 +43,7 @@ There are currently 2 endpoints in tacos2fitness, outlined further below.
 
 - e.g. "600 tacos"
 
+<br><br>
 
 <img src="pics/CaloriesToTacoOptions.png" width="700">
 <h3>Calorie Budget Taco Options endpoint</h3>
