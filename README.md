@@ -5,11 +5,14 @@ The *tacos2fitness* microservice transfers data via ZeroMQ ([docs](https://zerom
 
 ### 1. Download & Run server locally
 Download `tacos2fitness.py` in same directory as your client
+
 Run server by executing `python3 tacos2fitness.py` in terminal
 
 ### 2. Setup ZMQ context
 `import zmq`
+
 `context = zmq.Context()`
+
 `socket = context.socket(zmq.REQ)`
 
 ### 3. Connect to server (socket 6666)
@@ -17,10 +20,12 @@ Run server by executing `python3 tacos2fitness.py` in terminal
 
 ### 4. Sending requests via string messages
 `socket.send_string(request)` where request is of type `<Str>`
+
 There are currently 2 endpoints in tacos2fitness, outlined further below.
 
 ### 5. Receiving responses
 `message = socket.recv()` awaits server response
+
 `message = message.decode('UTF-8')` decodes response data into UTF-8
 
 ## tacos2fitness Endpoints
