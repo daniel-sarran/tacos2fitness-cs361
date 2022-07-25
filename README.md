@@ -28,11 +28,12 @@ There are currently 2 endpoints in tacos2fitness, outlined further below.
 
 `message = message.decode('UTF-8')` decodes response data into UTF-8
 
-
+<br>
+<br>
 
 ## tacos2fitness Endpoints
 
-<img src="pics/CaloriesToTacoOptions.png" width="700">
+<img src="pics/WeightToNumTacos.png" width="700">
 <h3>Weight to Tacos endpoint</h3>
 
 - Request message must be an integer, followed by a space, and the letters "lb"
@@ -44,8 +45,7 @@ There are currently 2 endpoints in tacos2fitness, outlined further below.
 - e.g. "600 tacos"
 
 
-
-<img src="pics/WeightToNumTacos.png" width="700">
+<img src="pics/CaloriesToTacoOptions.png" width="700">
 <h3>Calorie Budget Taco Options endpoint</h3>
 
 - Request message must be an integer, followed by a space, and the letters "cal"
